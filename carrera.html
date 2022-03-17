@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gran Premio de Ilerna</title>
+    <!--título de la pestaña -->
+    <script src="jquery-3.6.0.min.js"></script>
+    <!--enlaza la libreria jQuery-->
+    <link rel="stylesheet" type="text/css" href="carrera.css" />
+    <!--enlaza la hoja de estilos CSS -->
+    <script type="text/javascript" src="carrera.js"></script>
+    <!--enlaza el archivo que contiene el código Javascript -->
+  </head>
+  <body>
+    <h1>GRAN PRIX</h1>
+    <!--título-->
+    <div class="cabecera">
+      <!--elemento para colocar el desplegable-->
+      <p>
+        Por favor, selecciona un número de participantes
+        <select id="numPart" name="participantes">
+          <!--creación de un desplegable que contiene 9 posibles opciones, por defecto "1"-->
+          <option value="1" selected>1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+        </select>
+      </p>
+      <p>
+        <button id="iniciar" type="button">Iniciar</button
+        ><!--creación del botón "iniciar" -->
+        <button id="reiniciar" type="button">Reiniciar</button
+        ><!--creación del botón "reiniciar"-->
+      </p>
+    </div>
+    <div class="horizonte"></div>
+    <!--elemento para colocar un paisaje de fondo -->
+    <div class="circuito" id="pista"></div>
+    <!--elemento que utilizaré para contener otros elementos <div> que incluirán las imagenes de los coches y de la carretera-->
+
+    <footer>Susana Manzanares Sánchez (2021)</footer>
+    <!--para firmar mi trabajo en el pie de página-->
+  </body>
+</html>

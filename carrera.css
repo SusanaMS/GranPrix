@@ -1,0 +1,52 @@
+html {
+  background: #818c83; /*añado un fondo que se aplica a toda la página web, utilizando un color personalizado de Adobe Color*/
+}
+h1 {
+  text-align: center; /*aplico un estilo al título con diferentes atributos como alineación, tipo letra, color, tamaño... */
+  font-family: Impact;
+  font-size: 200%;
+  color: black;
+}
+.cabecera {
+  /*aplico un estilo a la parte de la cabecera con varios atributos*/
+  font-family: Arial;
+  font-weight: bold;
+  text-align: center;
+}
+button {
+  /*aplico el mismo estilo a los dos botones*/
+  border: 3px solid #3a403a;
+  border-radius: 10px;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px;
+  background-color: #d9cccc;
+}
+button:hover {
+  /*utilizo "hover" en los dos botones para seleccionar y dar estilo al pasar con el ratón por encima de dichos elementos */
+  background-color: #e7c980;
+}
+
+.imgCar {
+  /*aplico el mismo estilo a todas las imagenes de los coches*/
+  position: relative; /*para poder manipular la posición de cada imagen es necesario establecer la posición ya que por defecto es estática*/
+  margin-left: 0px;
+  width: 40px;
+  height: 40px;
+}
+.horizonte {
+  /*inserto la imagen de una bosque al elemento de la clase "cabecera" para simular un paisaje de fondo */
+  background-image: url(mountain.jpg);
+  width: 100%;
+  height: 300px;
+}
+.carril {
+  /*inserto la imagen de una carretera a todos los elementos de la clase "carril" simulando un pequeño circuito*/
+  background-image: url(carrilbis.jpg);
+}
+
+footer {
+  /*aplico un estilo a mi pie de página*/
+  text-align: right;
+}
